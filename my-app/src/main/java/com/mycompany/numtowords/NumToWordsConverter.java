@@ -14,9 +14,9 @@ public class NumToWordsConverter {
 		} else if (i >=10 && i< 20){
 			return teens[i-10];
 		}
-		
-		tens = i / 10;
-		digits i % 10;
+//		
+//		tens = i / 10;
+//		digits i % 10;
 		return "out of range";
 	}
 
