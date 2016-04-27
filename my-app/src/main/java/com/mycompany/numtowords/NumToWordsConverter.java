@@ -8,7 +8,7 @@ public class NumToWordsConverter {
 	private static final String teens[] = {"ten", "eleven", "two", "three",
 			"four", "five", "six", "seven", "eight", "nine"};
 	
-	public static String convert(int i) {
+	public String convert(int i) {
 		if(i >=0 && i < 10){
 			return digits[i];
 		} else if (i >=10 && i< 20){
